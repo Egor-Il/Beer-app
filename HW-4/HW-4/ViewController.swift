@@ -101,7 +101,6 @@ class ViewController: UIViewController {
         countFirstBeer.text = "\(Manager.shared.totalSum)"
         countSecondBeer.text = "\(Manager.shared.totalSum)"
         countThirdBeer.text = "\(Manager.shared.totalSum)"
-        // Manager.shared.countFirstBeer.text = "\(beerCount)"
         someBigLable.text = "\(Manager.shared.beerArray[0].name) = \(Manager.shared.beerArray[0].count) \n\(Manager.shared.beerArray[1].name) = \(Manager.shared.beerArray[1].count)\n\(Manager.shared.beerArray[2].name) = \(Manager.shared.beerArray[2].count)"
     }
     @IBAction func endAction(_ sender: UIButton) {
