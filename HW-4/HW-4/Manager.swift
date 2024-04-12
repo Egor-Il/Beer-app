@@ -13,9 +13,9 @@ final class Manager {
     private init() {}
     
     var beerArray = [
-        Beer(name: "Guinness", price: 9.5) ,
-        Beer(name: "Blue Moon", price: 6.8)  ,
-        Beer(name: "Paulaner", price: 7.5)
+        Beer(name: "Guinness", price: 10.5) ,
+        Beer(name: "Blue Moon", price: 7.8)  ,
+        Beer(name: "Paulaner", price: 8.5)
     ]
     var beerStartFirst: Int = 0
     var beerStartSecond: Int = 0
