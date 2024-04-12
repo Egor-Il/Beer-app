@@ -120,6 +120,7 @@ class ViewController: UIViewController {
         someBigLable.text = "Good nigth \nTotal daily revenue: \(Manager.shared.totalSum) $"
     }
     @IBAction func sellAction(_ sender: UIButton) {
+        sell.tintColor = .yellow
         Manager.shared.sellBeer(name: "Guinness", count: Manager.shared.beerStartFirst)
         Manager.shared.sellBeer(name: "Blue Moon", count: Manager.shared.beerStartSecond)
         Manager.shared.sellBeer(name: "Paulaner", count: Manager.shared.beerStartThird)
